@@ -2,7 +2,6 @@
 from pathlib import Path
 import pickle
 
-
 #Processing file function
 def text_procs(file):
     """Function return pdb_id as list from the file
