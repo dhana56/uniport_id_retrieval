@@ -9,5 +9,5 @@
 1. Run the [requirement.txt](https://github.com/dhana56/news_scrapping/blob/master/requirement.txt)
 in the terminal using the following command:
     >       pip install requirement.txt
-2. Run the [main.py](https://github.com/dhana56/news_scrapping/blob/master/nbcnewscrapper.py) python file. <br>
-3. Check the example output [here]().
+2. Run the [main.py](https://github.com/dhana56/uniport_id_retrieval/blob/main/main.py) python file. <br>
+3. Check the example output [here](https://github.com/dhana56/uniport_id_retrieval/tree/main/test/result).
