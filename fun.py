@@ -7,13 +7,11 @@ def text_procs(file):
     """Function return pdb_id as list from the file
     :File, file path
     """
-
     path_1 = Path(r"entry_file_error.txt")
     if path_1.is_file()==True:
         path_1.unlink()
     else:
         pass
-
     data_lis = []
     for i in open(file):
         if len(i.strip())==4 :
@@ -33,13 +31,12 @@ def file_save(x):
     with open("result.pickle",'wb') as file:
         pickle.dump(x,file)
 
-def pickle_read():
+def pickle_read(x):
     """Function return the entry based uniport details"""
 
     with open("result.pickle", "rb") as pickle_file:
         loaded_data = pickle.load(pickle_file)
-    entry = input("Please enter the PDB id: ")
-    return loaded_data[entry.lower()]
+    return loaded_data[x.lower()]
 
 def save_data():
     "Function that save the data in text file"
