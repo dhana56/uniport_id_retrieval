@@ -23,7 +23,6 @@ def text_procs(file):
     return data_lis
 
 #Saving the Output file:
-
 def file_save(x):
     """Function create json file
     : x, dictionary as a input
