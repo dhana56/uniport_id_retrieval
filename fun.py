@@ -45,9 +45,3 @@ def save_data():
     
     with open("result_output.txt",'w') as file_1:
         file_1.write(str(loaded))
-
-        
-    
-
-            
-
